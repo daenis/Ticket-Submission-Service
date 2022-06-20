@@ -15,6 +15,7 @@ public class SoftwareDevelopmentTicketSubmissionService implements TicketSubmiss
 
     @Override
     public String submitTicket(Ticket ticket) {
+        System.out.println("trial version");
         return "Ticket with ID " + ticket.getIdentifier() + " has been submitted to the Software Development department.";
     }
 
